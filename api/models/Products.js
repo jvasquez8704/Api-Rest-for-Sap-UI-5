@@ -8,7 +8,12 @@
 module.exports = {
 
   attributes: {
-
+      Name:"string",
+      Description:"string",
+      Price:"float",
+      Rating:"float",
+      ReleaseDate:"datetime",
+      DiscontinuedDate:"datetime"
   }
 };
 
